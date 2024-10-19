@@ -82,5 +82,6 @@ section{
 
 /*stylos de la navegacion principal*/
 h1{
-    color: var(--blanco);
+    color: var(--negro);
+    text-align: center;
 }
