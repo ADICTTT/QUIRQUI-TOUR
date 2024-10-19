@@ -20,7 +20,19 @@ const { title } = Astro.props;
 	<body>
 		<slot />
 	</body>
+	<div class="resolucion">
+        <div class="desktop">
+            <h1>Esto es un ordenador</h1>
+        </div>
+        <div class="tablet">
+            <h1>Esto es un tablet</h1>
+        </div>
+        <div class="movil">
+            <h1>Esto es un movil</h1>
+        </div>
+    </div>
 </html>
+
 <style is:global>
 	body{
 		background-color: #F6ECDE;
