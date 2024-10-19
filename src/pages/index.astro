@@ -1,4 +1,5 @@
 ---
+import '../styles/global.css';
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import '../fontawesome.js';
@@ -6,6 +7,7 @@ import '../fontawesome.js';
 
 <Layout title="Quirqui-Tour">
 	<header class="navegacion">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 		<div class="contenedor-logo">
 			<section class="logo">
 				<div>
@@ -40,10 +42,6 @@ import '../fontawesome.js';
 			<p>QUIRQUI-TOUR</p>
 			<p>Sitio web de TURISMO EN ORURO!!!😯😯🤯🤯😱😱</p>
 		</h1>
-	<!--	<p class="instructions">
-			pagina de inicio <code>aqui</code> llenar<br />
-			<strong>Cositas:</strong> Imagenes, xd.
-		</p>-->
 		<div class="foto">
 			<a href="#">
 				<figure><img src="oruroFoto.jpg" alt="foto de Oruro"></figure>
@@ -54,12 +52,14 @@ import '../fontawesome.js';
 		<footer class = "pie-pagina">
 			<div class="grupo-1">
 				<div class="box">
-					<h2>SIGUENOS</h2>
+					<h2>CONTACTO</h2>
+					<p>Whatsapp: +591 9999999</p>
+					<p>Email: correo@example.com</p>
 					<div class="red-social">
-						<a href="#"class="fab fa-facebook"></a>
-						<a href="#"class="fab fa-instagram"></a>
-						<a href="#"class="fab fa-twitter"></a>
-						<a href="#"class="fab fa-youtube"></a>
+						<a href="https://github.com/sis-inf/quirqi-tour/tree/main" class="fab fa-facebook" target="_blank"></a>
+						<a href="https://github.com/sis-inf/quirqi-tour/tree/main"class="fab fa-instagram" target="_blank"></a>
+						<a href="https://github.com/sis-inf/quirqi-tour/tree/main"class="fab fa-github" target="_blank"></a>
+						<a href="https://github.com/sis-inf/quirqi-tour/tree/main"class="fab fa-youtube" target="_blank"></a>
 					</div>
 				</div>
 				<div class="box">
@@ -101,7 +101,7 @@ import '../fontawesome.js';
 		margin: 0;
 	}
 	.foto figure img{
-    width: 1350px; 
+    width: 1000px; 
 }
 	.foto figure{
     width: 100%;
