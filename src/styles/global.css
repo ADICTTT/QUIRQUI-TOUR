@@ -9,6 +9,7 @@
 body{
     margin: 0;
 }
+/*star footer*/
 .navegacion{
     .contenedor-logo{
         background-color: var(--color-primario);
@@ -28,7 +29,6 @@ section{
 .logo{
     justify-content: space-between;
 }
-
 
 .navbar {
     width: 100%;
@@ -75,10 +75,10 @@ section{
 .logo-right {
     font-size: 28px;
     font-weight: bold;
-    color: #F0D3A7; /* Color beige para "NAME" */
-    font-family: 'Brush Script MT', cursive; /* Estilo manuscrito */
+    color: #F0D3A7; 
+    font-family: 'Brush Script MT', cursive;
 }
-
+/*end footer*/
 
 /*stylos de la navegacion principal*/
 h1{
