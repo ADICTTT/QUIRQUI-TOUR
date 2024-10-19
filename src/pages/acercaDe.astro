@@ -1,15 +1,41 @@
 ---
-title: "acerca de nosotro xd"  
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
 ---
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
-<body>
-    <h1>Acerca de nosotros lol</h1>  
-    <p>Cositas de nosotros.</p>
-</body>
+<Layout title="Acerca de..">
+	<header class="navegacion">
+		<div class="contenedor-logo">
+			<section class="logo">
+				<div>
+					<img src="/LogoTOUR.svg" alt="">
+				</div>
+				<div class="logo-principal">
+					<a href="/"><img src="/logo.png" alt=""></a>
+				</div>
+				<div>
+					<img src="/LogoTOUR.svg" alt="" style="transform: scaleX(-1);">
+				</div>
+			</section>
+			<section class="navegacion-contenedor">
+				<nav class="navbar">
+					<!-- Enlaces de navegación -->
+					<ul class="nav-links">
+						<li><a href="/">INICIO</a></li>
+						<li><a href="/oruro">ORURO</a></li>
+						<li><a href="/infTuristica">INF. TURISTICA</a></li>
+						<li><a href="/busesTransporte">BUSES & TRANSPORTE</a></li>
+						<li><a href="/carnaval">CARNAVAL</a></li>
+						<li><a href="/museos">MUSEOS</a></li>
+						<li><a href="/acercaDe">ACERCA DE</a></li>
+						<li><a href="/gesContenido">GES. DE CONTENIDO</a></li>
+					</ul>
+				</nav>
+			</section>
+		</div>
+	</header>
+	<main>
+		<!--IMPLEMENTACION CODIGO DE PAGINA -->
+		<h1>CONTENIDO ACERCA DE</h1>
+	</main>
+</Layout>
