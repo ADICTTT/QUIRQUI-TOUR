@@ -5,6 +5,7 @@ import Card from '../components/Card.astro';
 
 <Layout title="Acerca de..">
 	<header class="navegacion">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 		<div class="contenedor-logo">
 			<section class="logo">
 				<div>
@@ -36,6 +37,38 @@ import Card from '../components/Card.astro';
 	</header>
 	<main>
 		<!--IMPLEMENTACION CODIGO DE PAGINA -->
-		<h1>CONTENIDO ACERCA DE</h1>
+		<h1> <font color="black">CONTENIDO ACERCA DE</font></h1>
 	</main>
+	<body>
+		<footer class = "pie-pagina">
+			<div class="grupo-1">
+				<div class="box">
+					<h2>CONTACTO</h2>
+					<p>Whatsapp: +591 9999999</p>
+					<p>Email: correo@example.com</p>
+					<div class="red-social">
+						<a href="https://github.com/sis-inf/quirqi-tour/tree/main" class="fab fa-facebook" target="_blank"></a>
+						<a href="https://github.com/sis-inf/quirqi-tour/tree/main"class="fab fa-instagram" target="_blank"></a>
+						<a href="https://github.com/sis-inf/quirqi-tour/tree/main"class="fab fa-github" target="_blank"></a>
+						<a href="https://github.com/sis-inf/quirqi-tour/tree/main"class="fab fa-youtube" target="_blank"></a>
+					</div>
+				</div>
+				<div class="box">
+					<figure>
+						<a href="#">
+							<img src="logoPie.png" alt="logo quirqui tour">
+						</a>
+					</figure>
+				</div>
+				<div class="box">
+					<h2>SOBRE NOSOTROS</h2>
+					<p>Estudiantes de INGENIERIA INFORMATICA. </p>
+					<p>FACULTAD NACIONAL DE INGENIERIA </p>
+				</div>
+			</div>
+			<div class="grupo-2">
+				<small>&copy;2024 <b>Quirqui-tour</b> - Todos los derechos reservados </small>
+			</div>
+		</footer>
+	</body>
 </Layout>
