@@ -3,155 +3,17 @@ import '../styles/global.css';
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import '../fontawesome.js';
+import PiePagina from '../components/piePagina.astro';
+import Encabezado from '../components/encabezado.astro';
 ---
-
-<Layout title="Quirqui-Tour">
-	<header class="navegacion">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-		<div class="contenedor-logo">
-			<section class="logo">
-				<div>
-					<img src="/LogoTOUR.svg" alt="">
-				</div>
-				<div class="logo-principal">
-					<a href="/"><img src="/logo.png" alt=""></a>
-				</div>
-				<div>
-					<img src="/LogoTOUR.svg" alt="" style="transform: scaleX(-1);">
-				</div>
-			</section>
-			<section class="navegacion-contenedor">
-				<nav class="navbar">
-					<!-- Enlaces de navegación -->
-					<ul class="nav-links">
-						<li><a href="/">INICIO</a></li>
-						<li><a href="/oruro">ORURO</a></li>
-						<li><a href="/infTuristica">INF. TURISTICA</a></li>
-						<li><a href="/busesTransporte">BUSES & TRANSPORTE</a></li>
-						<li><a href="/carnaval">CARNAVAL</a></li>
-						<li><a href="/museos">MUSEOS</a></li>
-						<li><a href="/acercaDe">ACERCA DE</a></li>
-						<li><a href="/gesContenido">GES. DE CONTENIDO</a></li>
-					</ul>
-				</nav>
-			</section>
-		</div>
-	</header>
-	<main>
-		<h1 class="text-gradient">
-			<p>QUIRQUI-TOUR</p>
-			<p>Sitio web de TURISMO EN ORURO!!!😯😯🤯🤯😱😱</p>
-		</h1>
-		<div class="foto">
-			<a href="#">
-				<figure><img src="oruroFoto.jpg" alt="foto de Oruro"></figure>
-			</a>
-		</div>
-	</main>
-	<body>
-		<footer class = "pie-pagina">
-			<div class="grupo-1">
-				<div class="box">
-					<h2>CONTACTO</h2>
-					<p>Whatsapp: +591 9999999</p>
-					<p>Email: correo@example.com</p>
-					<div class="red-social">
-						<a href="https://github.com/sis-inf/quirqi-tour/tree/main" class="fab fa-facebook" target="_blank"></a>
-						<a href="https://github.com/sis-inf/quirqi-tour/tree/main"class="fab fa-instagram" target="_blank"></a>
-						<a href="https://github.com/sis-inf/quirqi-tour/tree/main"class="fab fa-github" target="_blank"></a>
-						<a href="https://github.com/sis-inf/quirqi-tour/tree/main"class="fab fa-youtube" target="_blank"></a>
-					</div>
-				</div>
-				<div class="box">
-					<figure>
-						<a href="#">
-							<img src="logoPie.png" alt="logo quirqui tour">
-						</a>
-					</figure>
-				</div>
-				<div class="box">
-					<h2>SOBRE NOSOTROS</h2>
-					<p>Estudiantes de INGENIERIA INFORMATICA. </p>
-					<p>FACULTAD NACIONAL DE INGENIERIA </p>
-				</div>
-			</div>
-			<div class="grupo-2">
-				<small>&copy;2024 <b>Quirqui-tour</b> - Todos los derechos reservados </small>
-			</div>
-		</footer>
-	</body>
+<Layout title="Inicio">
+    <Encabezado /> 
+	<p><strong><font size="20">INICIO</font></strong></p>
+	<PiePagina />  
 </Layout>
 
 <style>
-	main {
-		text-align: center;
-		margin: auto;
-		padding: 1rem;
-		width: 1920px;
-		max-width: calc(100% - 2rem);
+	p{
 		color: black;
-		font-size: 20px;
-		line-height: 1.6;
 	}
-	.foto img{
-		display: block;
-		margin: 0 auto;
-	}
-	h1{
-		margin: 0;
-	}
-	.foto figure img{
-    width: 1000px; 
-}
-	.foto figure{
-    width: 100%;
-    height: 100%;
-    display: center;
-    justify-content: center;
-    align-items: center;
-}
-	/*.astro-a {
-		position: absolute;
-		top: -32px;
-		left: 50%;
-		transform: translatex(-50%);
-		width: 220px;
-		height: auto;
-		z-index: -1;
-	}*/
-	/*h1 {
-		font-size: 4rem;
-		font-weight: 700;
-		line-height: 1;
-		text-align: center;
-		margin-bottom: 1em;
-	}*/
-	.text-gradient {
-		color: black;
-		line-height: 0.3;
-	}
-	/*.instructions {
-		margin-bottom: 2rem;
-		border: 1px solid rgba(var(--accent-light), 25%);
-		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
-		padding: 1.5rem;
-		border-radius: 8px;
-	}*/
-	/*.instructions code {
-		font-size: 0.8em;
-		font-weight: bold;
-		background: rgba(var(--accent-light), 12%);
-		color: rgb(var(--accent-light));
-		border-radius: 4px;
-		padding: 0.3em 0.4em;
-	}*/
-	/*.instructions strong {
-		color: rgb(var(--accent-light));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 2rem;
-		padding: 0;
-	}*/
 </style>
